@@ -1,31 +1,96 @@
 <!DOCTYPE html>
 <html lang="zxx">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Author" content="Sofia">
-    <meta name="description" content="toboolist"> 
-    <link rel="stylesheet" href="css/style.css">
-    <title>Toboolist</title>
-</head>
-<body>
-    <!-- logo and title -->
-    <div class="title">
-        <header>
-            <img id="logo" src="Logo.png" alt="">
-            <h1>Toboolist</h1>
-        </header>
-    </div>
-<main>
-    <!-- buttons -->
-    <button>Add Task</button>
-    <button>Add Section</button>
-
-
-
-
-</main>
-    
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="Author" content="Sofia">
+      <meta name="description" content="toboolist">
+      <link rel="stylesheet" href="css/style.css">
+      <title>Toboolist</title>
+   </head>
+   <body>
+      <!-- logo and title -->
+      <header>
+         <img id="logo" src="Logo.png" alt="">
+         <h1>Toboolist</h1>
+      </header>
+      <main>
+         <div class="container">
+            <!-- buttons -->
+            <section id="actions">
+               <button class="btn blu" >Add Task</button>
+               <button class="btn white">Add Section</button>
+            </section>
+            <!-- contenuto principale -->
+            <section class="tasks">
+               <ul>
+                  <li class="margin-bottom">
+                     <h3>&blacktriangledown; New task</h3>
+                     <ul>
+                        <li class="task-item">
+                           <div>
+                              <span class="task-status">&check;</span>
+                              <span class="task-text"> Quarterly newsletter </span>
+                              <span class="badge">Editorial</span>
+                           </div>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="margin-bottom">
+                     <h3>&blacktriangledown; Today</h3>
+                     <ul>
+                        <li class="task-item">
+                           <div>
+                              <span class="task-status">&check;</span>
+                              <span class="task-text"> Recruting blog post </span>
+                              <span class="badge">Editorial</span>
+                           </div>
+                           <div>
+                              <span class="task-status">&check;</span>
+                              <span class="task-text"> Mobile app launch </span>
+                              <span class="badge viola">Q1 Goals</span>
+                           </div>
+                           <div>
+                              <span class="task-status rosso">&cross;</span>
+                              <span class="task-text"> Interview John H. </span>
+                              <span class="badge verde">Recruiting</span>
+                           </div>
+                           <div>
+                              <span class="task-status">&check;</span>
+                              <span class="task-text"> Summit update to mobile storefronts </span>
+                              <span class="badge arancione">Mobile</span>
+                           </div>
+                        </li>
+                     </ul>
+                  <li>
+                     <h3>&blacktriangledown; Upcoming</h3>
+                     <ul>
+                        <li class="task-item">
+                           <div>
+                              <span class="task-status rosso" >&cross;</span>
+                              <span class="task-text"> Schedule meeting Alex </span>
+                           </div>
+                           <div>
+                              <span class="task-status">&check;</span>
+                              <span class="task-text"> Homepage refresh </span>
+                              <span class="badge fucsia">Website</span>
+                           </div>
+                           <div>
+                              <span class="task-status">&check;</span>
+                              <span class="task-text"> Onboard new Sales team members </span>
+                              <span class="badge giallo">Sales</span>
+                           </div>
+                           <div>
+                              <span class="task-status">&check;</span>
+                              <span class="task-text"> Review editorial calendar</span>
+                              <span class="badge">Editorial</span>
+                           </div>
+                        </li>
+                     </ul>
+               </ul>
+            </section>
+         </div>
+      </main>
+   </body>
 </html>
